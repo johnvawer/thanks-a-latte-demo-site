@@ -29,6 +29,22 @@ body {
   
   .list-unstyled {
     list-style: none;
+    margin-right: 40px;
+  }
+
+  .main-nav {
+    height: 50px;
+    background-color: #C44536;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .main-nav-list-item {
+    display: inline;
+  }
+
+  .float-right {
+    float: right;
   }
   
   .product-image {
