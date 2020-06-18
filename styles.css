@@ -1,0 +1,69 @@
+/* 
+  #283D3B;
+  #36EAF6;
+  #EDDDD4;
+  #C44536
+  #772E25
+*/
+
+body {
+    background-color: #772E25;
+  }
+  
+  .wrapper {
+    width: 80%;
+    margin: 0% 10%;
+    background-color: #283D3B;
+    color: #EDDDD4;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    border-radius: 10px;
+  }
+  
+  a {
+    color: #36EAF6;
+  }
+  
+  main {
+    padding: 15px;
+  }
+  
+  .list-unstyled {
+    list-style: none;
+  }
+  
+  .product-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+  }
+  
+  .products {
+    text-align: center;
+  }
+  
+  .products td {
+    padding-bottom: 40px;
+  }
+  
+  .d-inline-block {
+    display: inline-block;
+  }
+  
+  .d-block {
+    display: block;
+  }
+  
+  .products label {
+    text-align: left;
+  }
+  
+  .add {
+    margin: 0 auto;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+  }
