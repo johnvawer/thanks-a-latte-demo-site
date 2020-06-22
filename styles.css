@@ -1,4 +1,4 @@
-/* 
+/*
   #283D3B;
   #36EAF6;
   #EDDDD4;
@@ -9,7 +9,7 @@
 body {
     background-color: #772E25;
   }
-  
+
   .wrapper {
     width: 80%;
     margin: 0% 10%;
@@ -18,61 +18,91 @@ body {
     font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
     border-radius: 10px;
   }
-  
+
   a {
     color: #36EAF6;
   }
-  
+
   main {
     padding: 15px;
   }
-  
+
   .list-unstyled {
     list-style: none;
     margin-right: 40px;
   }
 
+  .logo img {
+    height: 100px;
+    border-radius: 5px;
+  }
+
+  .nav-links {
+    position: relative;
+    top: -40px;
+  }
+
+  .nav-links li {
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: transform 0.5s cubic-bezier(0.51, 0.43, 0.13, 1.55);
+  }
+
+  .nav-links li:hover {
+    transform: scale(1.2);
+  }
+
+  .nav-links a {
+    color: #EDDDD4;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
   .main-nav {
-    height: 50px;
+    padding-top: 15px;
     background-color: #C44536;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  }
+
+  .main-nav ul {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 20px;
   }
 
   .main-nav-list-item {
-    display: inline;
+    display: inline-block;
   }
 
   .float-right {
     float: right;
   }
-  
+
   .product-image {
     width: 200px;
     height: 200px;
     border-radius: 3px;
   }
-  
+
   .products {
     text-align: center;
   }
-  
+
   .products td {
     padding-bottom: 40px;
   }
-  
+
   .d-inline-block {
     display: inline-block;
   }
-  
+
   .d-block {
     display: block;
   }
-  
+
   .products label {
     text-align: left;
   }
-  
+
   .add {
     margin: 0 auto;
     width: 150px;
