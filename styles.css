@@ -8,6 +8,7 @@
 
 body {
     background-color: #772E25;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
   }
 
   .wrapper {
@@ -15,7 +16,6 @@ body {
     margin: 0% 10%;
     background-color: #283D3B;
     color: #EDDDD4;
-    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
     border-radius: 10px;
   }
 
@@ -35,6 +35,10 @@ body {
   .logo img {
     height: 100px;
     border-radius: 5px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
   }
 
   .nav-links {
@@ -112,6 +116,12 @@ body {
     padding: 20px;
     padding-top: 0px;
   }
+  
+  .product-price {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+  }
 
   .add {
     margin: 10px auto;
@@ -146,6 +156,49 @@ body {
   .message {
     width: 300px;
     height: 150px;
+  }
+
+  .basket {
+    visibility: hidden;
+    transition: visibility 0s 0.6s;
+  }
+  
+  .basket-is-visible {
+    visibility: visible;
+    transition: visibility 0s 0s;
+  }
+
+  .basket-container {
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    top: 0;
+    transition: transform 0.3s 0.3s;
+    left: 0;
+    transform: translate3d(-100%, 0, 0);
+    background: #EDDDD4;
+  }
+  
+  .basket-header {
+    background-color: #C44536;
+    top: 0;
+    position: fixed;
+    width: 90%;
+    height: 60px;
+    padding: 0 5%;
+    color: #EDDDD4;
+  }
+
+  .basket-content {
+    top: 60px;
+    position: fixed;
+    padding: 5%;
+    width: 90%;
+  }
+  
+  .basket-is-visible .basket-container {
+    transform: translate3d(0, 0, 0);
+    transition-delay: 0s;
   }
 
   @media (max-width: 960px) {
