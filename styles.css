@@ -15,7 +15,7 @@ body {
     margin: 0% 10%;
     background-color: #283D3B;
     color: #EDDDD4;
-    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-family: Helvetica, Georgia, Times, "Times New Roman", serif;
     border-radius: 10px;
   }
 
@@ -118,9 +118,9 @@ body {
     width: 150px;
     height: 30px;
     border-radius: 8px;
-    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-family: Helvetica, Georgia, Times, "Times New Roman", serif;
     font-size: 18px;
-    line-height: 35px;
+    line-height: 20px;
     text-align: center;
   }
 
