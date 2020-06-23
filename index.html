@@ -36,44 +36,91 @@
 
       <div id="about">
         <h2>About</h2>
-        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu sem integer vitae justo.</span>
+        <span>
+          Here at Thanks A Latte, we provide only the best coffee beans directly to your door. Be it whole beans or grounded, you won't be disappointed.
+        </span>
       </div>
 
       <div id="products">
         <h2>Products</h2>
-        <table class="products">
-          <tr>
-            <td>
-              <img src="assets/dejaBrew.jpg" alt="Déjà brew product image" class="product-image">
-              <h3>Déjà Brew</h3>
-              <span>This coffee is so good, you'll forget how many cups you've had!</span>
-              <div class="d-block">
-                <input id="deja-brew-whole" class="d-inline-block" type="radio">
-                <label for="deja-brew-whole">Whole Bean</label>
-                <input type="radio" id="deja-brew-ground" class="d-inline-block">
-                <label for="deja-brew-ground">Grounded</label>
-                <button class="add d-block" id="deja-brew-add">Add to Basket</button>
-              </div>
+        <div class="products">
+          <div class="product">
+            <img src="assets/dejaBrew.jpg" alt="Déjà brew product image" class="product-image">
+            <h3>Deja Brew</h3>
+            <span class="product-description">
+              This coffee is so good, you'll forget how many cups you've had!
+            </span>
+            <div class="d-block">
+              <input id="deja-brew-whole" class="d-inline-block" type="radio">
+              <label for="deja-brew-whole">Whole Bean</label>
+              <input type="radio" id="deja-brew-ground" class="d-inline-block">
+              <label for="deja-brew-ground">Grounded</label>
+              <button class="add d-block" id="deja-brew-add">Add to Basket</button>
+            </div>
+          </div>
 
-            </td>
-            <td>
-              <img src="assets/dontWorryBeFrappe.jpg" alt="Don't worry be Frappe product image" class="product-image">
-              <h3>Don't worry, be Frappe</h3>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc non blandit massa enim nec dui. Aenean et tortor at risus viverra adipiscing at in tellus.</span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="assets/potHead.jpg" alt="Pothead product image" class="product-image">
-              <h3>Pot Head</h3>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc non blandit massa enim nec dui. Aenean et tortor at risus viverra adipiscing at in tellus.</span>
-            </td>
-            <td>
-              <img src="assets/procaffeinating.jpg" alt="Procaffeinating product image" class="product-image">
-              <h3>Procaffeinating</h3>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc non blandit massa enim nec dui. Aenean et tortor at risus viverra adipiscing at in tellus.</span>
-            </td>
-          </tr>
+          <div class="product">
+            <img src="assets/dontWorryBeFrappe.jpg" alt="Don't worry be Frappe product image" class="product-image">
+            <h3>Don't worry, be Frappe</h3>
+            <span class="product-description">
+              In every life we have some trouble. But when you worry you make it double. Don't worry, be happy!
+            </span>
+            <div class="d-block">
+              <input id="frappe-whole" class="d-inline-block" type="radio">
+              <label for="frappe-whole">Whole Bean</label>
+              <input type="radio" id="frappe-ground" class="d-inline-block">
+              <label for="frappe-ground">Grounded</label>
+              <button class="add d-block" id="frappe-add">Add to Basket</button>
+            </div>
+          </div>
+
+          <div class="product">
+            <img src="assets/potHead.jpg" alt="Pothead product image" class="product-image">
+            <h3>Pot Head</h3>
+            <span class="product-description">
+              When you can't get enough coffee, make sure you always have a pot brewing with these beans.
+            </span>
+            <div class="d-block">
+              <input id="pothead-whole" class="d-inline-block" type="radio">
+              <label for="pothead-whole">Whole Bean</label>
+              <input type="radio" id="pothead-ground" class="d-inline-block">
+              <label for="pothead-ground">Grounded</label>
+              <button class="add d-block" id="pothead-add">Add to Basket</button>
+            </div>
+          </div>
+
+          <div class="product">
+            <img src="assets/procaffeinating.jpg" alt="Procaffeinating product image" class="product-image">
+            <h3>Procaffeinating</h3>
+            <span class="product-description">
+              Procaffeinating (n.) the tendency to not start anything until you've had a cup of coffee.
+            </span>
+            <div class="d-block">
+              <input id="procaffeinating-whole" class="d-inline-block" type="radio">
+              <label for="procaffeinating-whole">Whole Bean</label>
+              <input type="radio" id="procaffeinating-ground" class="d-inline-block">
+              <label for="procaffeinating-ground">Grounded</label>
+              <button class="add d-block" id="procaffeinating-add">Add to Basket</button>
+            </div>
+          </div>
+        </div>
+
+        <h2>Shipping Costs</h2>
+        <table>
+          <tbody>
+            <tr>
+              <th>Tracked First Class</th>
+              <td>UK: £5.50</td>
+              <td>Europe: £7.00</td>
+              <td>Anywhere else in the world: £9.00</td>
+            </tr>
+            <tr>
+              <th>Untracked</th>
+              <td>UK: £2.00</td>
+              <td>Europe: £3.00</td>
+              <td>Anywhere else in the world: £5.00</td>
+            </tr>
+          </tbody>
         </table>
       </div>
 
@@ -83,20 +130,20 @@
         <h2>Contact Us</h2>
         <div class="map"></div>
         <form action="#">
-          <label for="name">Your name</label>
-          <input id="name" type="text">
+          <label class="d-block" for="name">Your name</label>
+          <input class="d-block name" id="name" type="text">
 
-          <label for="email">Your email</label>
-          <input id="email" type="text">
+          <label class="d-block" for="email">Your email</label>
+          <input class="d-block email" id="email" type="text">
 
-          <label for="subject">Your subject</label>
-          <input type="text" id="subject">
+          <label class="d-block" for="subject">Your subject</label>
+          <input class="d-block subject" type="text" id="subject">
 
-          <label for="message">Your message</label>
-          <input type="text" id="subject">
+          <label class="d-block" for="message">Your message</label>
+          <input class="d-block message" type="text" id="message">
 
-          <input type="checkbox">
-          <span>By using this form you agree with the storage and handling of your data by this website. See our privacy policy <a href="#">here</a></span>
+          <input class="d-inline-block" type="checkbox">
+          <span class="d-inline-block">By using this form you agree with the storage and handling of your data by this website. See our privacy policy <a href="#">here</a></span>
         </form>
       </div>
     </main>
