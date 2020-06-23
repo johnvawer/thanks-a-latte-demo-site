@@ -19,6 +19,11 @@ body {
     border-radius: 10px;
   }
 
+  .modal-overlay {
+    opacity: 0.5;
+    z-index: 999;
+  }
+
   a {
     color: #36EAF6;
   }
