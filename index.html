@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Thanks a Latte test</title>
+  <title>Thanks a Latte</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div class="wrapper">
+  <div id="page-wrapper" class="wrapper">
     <div class="cart"></div>
 
     <nav class="main-nav">
@@ -27,6 +27,10 @@
               <a href="#">Contact</a>
             </li>
           </ul>
+        </li>
+
+        <li id="basket-logo" class="main-nav-list-item logo float-right">
+          <img src="assets/shopping-basket.png">
         </li>
       </ul>
     </nav>
@@ -50,6 +54,9 @@
             <span class="product-description">
               This coffee is so good, you'll forget how many cups you've had!
             </span>
+            <span class="product-price">
+              &pound;3
+            </span>
             <div class="d-block">
               <input id="deja-brew-whole" class="d-inline-block" type="radio">
               <label for="deja-brew-whole">Whole Bean</label>
@@ -64,6 +71,9 @@
             <h3>Don't worry, be Frappe</h3>
             <span class="product-description">
               In every life we have some trouble. But when you worry you make it double. Don't worry, be happy!
+            </span>
+            <span class="product-price">
+              &pound;5
             </span>
             <div class="d-block">
               <input id="frappe-whole" class="d-inline-block" type="radio">
@@ -80,6 +90,9 @@
             <span class="product-description">
               When you can't get enough coffee, make sure you always have a pot brewing with these beans.
             </span>
+            <span class="product-price">
+              &pound;2.50
+            </span>
             <div class="d-block">
               <input id="pothead-whole" class="d-inline-block" type="radio">
               <label for="pothead-whole">Whole Bean</label>
@@ -94,6 +107,9 @@
             <h3>Procaffeinating</h3>
             <span class="product-description">
               Procaffeinating (n.) the tendency to not start anything until you've had a cup of coffee.
+            </span>
+            <span class="product-price">
+              &pound;4.50
             </span>
             <div class="d-block">
               <input id="procaffeinating-whole" class="d-inline-block" type="radio">
@@ -148,5 +164,18 @@
       </div>
     </main>
   </div>
+
+  <div class="basket" id="basket-view">
+    <div class="basket-container">
+      <div class="basket-header">
+        <h2>Your Basket</h2>
+      </div>
+      <div class="basket-content">
+        You have no items in your basket
+      </div>
+    </div>
+ </div>
+
+ <script src="script.js"></script>
 </body>
 </html>
