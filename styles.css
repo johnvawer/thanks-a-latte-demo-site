@@ -21,7 +21,6 @@ body {
 
   .modal-overlay {
     opacity: 0.5;
-    z-index: 999;
   }
 
   a {
